@@ -23,3 +23,5 @@ This is a quick example on how to get Google maps on your android app running.  
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
 ```
+- Make sure you have the below in your build.gradle file, dependencies section:
+`compile 'com.google.android.gms:play-services:4.0.30'`
